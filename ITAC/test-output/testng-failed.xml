@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="8" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="Cybernation(failed)" parallel="methods">
+    <parameter name="browser" value="null"/>
+    <classes>
+      <class name="site_monitoring.PageComparison">
+        <methods>
+          <include name="ImageComparison"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- site_monitoring.PageComparison -->
+    </classes>
+  </test> <!-- Cybernation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

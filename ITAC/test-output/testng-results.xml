@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="119092" started-at="2020-05-28T18:34:31Z" finished-at="2020-05-28T18:36:30Z">
+    <groups>
+    </groups>
+    <test name="Cybernation" duration-ms="119092" started-at="2020-05-28T18:34:31Z" finished-at="2020-05-28T18:36:30Z">
+      <class name="site_monitoring.PageComparison">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:site_monitoring.PageComparison@1536c02]" name="beforeClass" is-config="true" duration-ms="20" started-at="2020-05-29T00:04:31Z" finished-at="2020-05-29T00:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="ImageComparison()[pri:0, instance:site_monitoring.PageComparison@1536c02]" name="ImageComparison" duration-ms="119051" started-at="2020-05-29T00:04:31Z" finished-at="2020-05-29T00:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImageComparison -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:site_monitoring.PageComparison@1536c02]" name="afterClass" is-config="true" duration-ms="4" started-at="2020-05-29T00:06:30Z" finished-at="2020-05-29T00:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- site_monitoring.PageComparison -->
+    </test> <!-- Cybernation -->
+  </suite> <!-- Suite -->
+</testng-results>
