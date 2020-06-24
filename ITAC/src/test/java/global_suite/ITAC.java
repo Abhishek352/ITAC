@@ -161,25 +161,12 @@ public class ITAC extends JFrame {
 	String[] real= {"Real Browser-Android", "Real App-Android", "Real Browser-iOS", "Real App-iOS","Select All"};
 	ArrayList<String> RealList =new ArrayList<String>(Arrays.asList(real));
 
-	/*
-	 * String[] RPTools= {"Agreement In Principle",
-	 * "BorrowingNeeds","Buy To Let","BudgetCalculator", "ClearRate",
-	 * "CurrencyConverter", "CMA", "Email Content Tool","HMCIB", "ISA",
-	 * "MRF","MOPC", "MTA", "Overdraft Calculator","RewardCalculator",
-	 * "Supplier Lookup", "Select All"};
-	 */
 	String[] RPTools= {"Sample Test", "Select All"};
 
 	ArrayList<String> RPToolsList =new ArrayList<String>(Arrays.asList(RPTools));
 
-	//	String[] brands= {"Natwest","RBS","Ulster","Natwest International","IOM","Select All"};
-	//	ArrayList<String> BrandsList =new ArrayList<String>(Arrays.asList(brands));
-
 	String[] regression_tools_pack= {"Regression suite"};		//
 	ArrayList<String> regression_tools_packList =new ArrayList<String>(Arrays.asList(regression_tools_pack));
-
-	//	String[] RP_array = {"Mortgage Tools","Apply Journey", "Select All"};
-	//	ArrayList<String> regression_packList =new ArrayList<String>(Arrays.asList(RP_array));
 
 	String[] browserValues= {"Please select","Local Browser", "Browser Stack", "Emulator", "Real Device"};
 	private JPasswordField passwordField;

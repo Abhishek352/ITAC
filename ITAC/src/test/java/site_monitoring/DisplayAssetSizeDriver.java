@@ -174,13 +174,12 @@ public class DisplayAssetSizeDriver{
 					
 					String Pagetype = GetImplementationType(pageurl);
 					
-					if(Pagetype.equals("responsive")){
+					/*if(Pagetype.equals("responsive")){
 						Desktop_childlinks = ResponsivegetAllLinks(pageurl, "desktop");
 						Mobile_childlinks = ResponsivegetAllLinks(pageurl, "mobile");
-					}else{
+					}else{*/
 						Desktop_childlinks = getAllLinks(pageurl, "desktop");
 						Mobile_childlinks = getAllLinks(pageurl, "mobile");
-					}
 					
 					Desktop_childlinks = UtilClass.RemoveBlankValues(Desktop_childlinks);
 					Mobile_childlinks = UtilClass.RemoveBlankValues(Mobile_childlinks);
@@ -837,7 +836,6 @@ public class DisplayAssetSizeDriver{
 		WebDriver driver;
 		driver = GetDriver.getdriver("Local_Chrome");
 		driver.manage().window().setPosition(new Point(-2000, 0));
-		//WebDriver driver = new HtmlUnitDriver();
 		
 	   String domainname = getUrlDomainName(parenturl);
 

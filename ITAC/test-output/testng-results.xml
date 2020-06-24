@@ -1,25 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="119092" started-at="2020-05-28T18:34:31Z" finished-at="2020-05-28T18:36:30Z">
+  <suite name="Suite" duration-ms="65852" started-at="2020-06-24T09:28:40Z" finished-at="2020-06-24T09:29:46Z">
     <groups>
     </groups>
-    <test name="Cybernation" duration-ms="119092" started-at="2020-05-28T18:34:31Z" finished-at="2020-05-28T18:36:30Z">
+    <test name="Cybernation" duration-ms="65852" started-at="2020-06-24T09:28:40Z" finished-at="2020-06-24T09:29:46Z">
       <class name="site_monitoring.PageComparison">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:site_monitoring.PageComparison@1536c02]" name="beforeClass" is-config="true" duration-ms="20" started-at="2020-05-29T00:04:31Z" finished-at="2020-05-29T00:04:31Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:site_monitoring.PageComparison@4e17bda1]" name="beforeClass" is-config="true" duration-ms="24" started-at="2020-06-24T14:58:40Z" finished-at="2020-06-24T14:58:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="ImageComparison()[pri:0, instance:site_monitoring.PageComparison@1536c02]" name="ImageComparison" duration-ms="119051" started-at="2020-05-29T00:04:31Z" finished-at="2020-05-29T00:06:30Z">
+        <test-method status="PASS" signature="ImageComparison()[pri:0, instance:site_monitoring.PageComparison@4e17bda1]" name="ImageComparison" duration-ms="23672" started-at="2020-06-24T14:58:40Z" finished-at="2020-06-24T14:59:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ImageComparison -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:site_monitoring.PageComparison@1536c02]" name="afterClass" is-config="true" duration-ms="4" started-at="2020-05-29T00:06:30Z" finished-at="2020-05-29T00:06:30Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:site_monitoring.PageComparison@4e17bda1]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-06-24T14:59:04Z" finished-at="2020-06-24T14:59:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- site_monitoring.PageComparison -->
+      <class name="site_monitoring.ResponseTime">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:site_monitoring.ResponseTime@700923f8]" name="beforeMethod" is-config="true" duration-ms="42" started-at="2020-06-24T14:58:40Z" finished-at="2020-06-24T14:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Responsetime()[pri:0, instance:site_monitoring.ResponseTime@700923f8]" name="Responsetime" duration-ms="14162" started-at="2020-06-24T14:58:40Z" finished-at="2020-06-24T14:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Responsetime -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:site_monitoring.ResponseTime@700923f8]" name="afterClass" is-config="true" duration-ms="2" started-at="2020-06-24T14:58:54Z" finished-at="2020-06-24T14:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- site_monitoring.ResponseTime -->
+      <class name="site_monitoring.FindingMissingAssets">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:site_monitoring.FindingMissingAssets@b7f5218]" name="beforeClass" is-config="true" duration-ms="14" started-at="2020-06-24T14:58:40Z" finished-at="2020-06-24T14:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="findmissingassets()[pri:0, instance:site_monitoring.FindingMissingAssets@b7f5218]" name="findmissingassets" duration-ms="2518" started-at="2020-06-24T14:58:40Z" finished-at="2020-06-24T14:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findmissingassets -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:site_monitoring.FindingMissingAssets@b7f5218]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-06-24T14:58:43Z" finished-at="2020-06-24T14:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- site_monitoring.FindingMissingAssets -->
+      <class name="site_monitoring.FindingSpecialCharacters">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:site_monitoring.FindingSpecialCharacters@7419473c]" name="beforeClass" is-config="true" duration-ms="25" started-at="2020-06-24T14:58:40Z" finished-at="2020-06-24T14:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="findSpecialCharacters()[pri:0, instance:site_monitoring.FindingSpecialCharacters@7419473c]" name="findSpecialCharacters" duration-ms="2265" started-at="2020-06-24T14:58:40Z" finished-at="2020-06-24T14:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findSpecialCharacters -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:site_monitoring.FindingSpecialCharacters@7419473c]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-06-24T14:58:42Z" finished-at="2020-06-24T14:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- site_monitoring.FindingSpecialCharacters -->
+      <class name="site_monitoring.DisplayAssetSizeDriver">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:site_monitoring.DisplayAssetSizeDriver@561d3e98]" name="beforeClass" is-config="true" duration-ms="16" started-at="2020-06-24T14:58:40Z" finished-at="2020-06-24T14:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="SizeOfAssets()[pri:0, instance:site_monitoring.DisplayAssetSizeDriver@561d3e98]" name="SizeOfAssets" duration-ms="3342" started-at="2020-06-24T14:58:40Z" finished-at="2020-06-24T14:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SizeOfAssets -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:site_monitoring.DisplayAssetSizeDriver@561d3e98]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-06-24T14:58:44Z" finished-at="2020-06-24T14:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- site_monitoring.DisplayAssetSizeDriver -->
+      <class name="site_monitoring.BrokenLinks">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:site_monitoring.BrokenLinks@700d13e1]" name="beforeMethod" is-config="true" duration-ms="24" started-at="2020-06-24T14:58:40Z" finished-at="2020-06-24T14:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ValidateBrokenLinks()[pri:0, instance:site_monitoring.BrokenLinks@700d13e1]" name="ValidateBrokenLinks" duration-ms="65809" started-at="2020-06-24T14:58:40Z" finished-at="2020-06-24T14:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateBrokenLinks -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:site_monitoring.BrokenLinks@700d13e1]" name="afterClass" is-config="true" duration-ms="2" started-at="2020-06-24T14:59:46Z" finished-at="2020-06-24T14:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- site_monitoring.BrokenLinks -->
     </test> <!-- Cybernation -->
   </suite> <!-- Suite -->
 </testng-results>

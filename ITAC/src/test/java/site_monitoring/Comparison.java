@@ -159,8 +159,8 @@ public class Comparison implements Runnable {
 								}else {
 									String ProdScreenshotpath = getScreenshot(ScreenShotsPath, "ProdURL"+i, driver);
 									System.out.println(ProdScreenshotpath); 
-									driver.quit();
-									driver = GetDriver.getdriver(currentbrowser);
+								//	driver.quit();
+								//	driver = GetDriver.getdriver(currentbrowser);
 								}
 								//Test URL
 								
