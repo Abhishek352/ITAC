@@ -1157,7 +1157,7 @@ public class HTML_Reports {
 			}
 
 
-			htmlStringBuilder.append("<div class='header' style='background-color:#5ea5e0'><div class='clearfix'><h1>Interactive Test Automation Cartridge</h1></div></div>");
+			htmlStringBuilder.append("<div class='header' style='background-color:#5ea5e0'><div class='clearfix'><h1>Experience Test Automation Cartridge</h1></div></div>");
 
 			String circlesclass;
 

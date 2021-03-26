@@ -27,7 +27,7 @@ public class PageComparison {
 
 	@BeforeClass
 	public void beforeClass() throws IOException {
-		System.out.println("********* Image Comparison Execution Started ********* ");
+		System.out.println("********* Image Comparison Execution Started in new Thread ********* ");
 		System.out.println("Execution Thread ID = " +Thread.currentThread().getId());
 		SimpleDateFormat sdf = new SimpleDateFormat("dd-MMM-yyyy HH:mm:ss");
 		Date dt = new Date();
@@ -63,7 +63,7 @@ public class PageComparison {
 
 		if(browserExe.equalsIgnoreCase("Local Browser")) {
 			browserList = prop.getProperty("PageComparison-Browser-Local");
-		}else if(browserExe.contains("stack")){
+		}else if(browserExe.contains("Stack")){
 			browserList = prop.getProperty("PageComparison-BrowserStack");
 		}else if(browserExe.contains("Emulator")) {
 			browserList = prop.getProperty("PageComparison-Emulator");

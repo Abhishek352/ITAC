@@ -85,7 +85,7 @@ public class Results2 extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
 		contentPane.setBorder(null);
-		contentPane.setBackground(ITAC.color);
+		contentPane.setBackground(ETAC.color);
 		setContentPane(contentPane);
 		contentPane.setLayout(new CardLayout(0, 0));
 		
@@ -101,7 +101,7 @@ public class Results2 extends JFrame {
 		gradientPanel.setLayout(new BorderLayout(0, 0));
 		
 
-		JLabel welcomeLabel = new JLabel("ITAC Results Summary",SwingConstants.CENTER);
+		JLabel welcomeLabel = new JLabel("ETAC Results Summary",SwingConstants.CENTER);
 		welcomeLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
 		welcomeLabel.setPreferredSize(new Dimension(720, 50));
 		welcomeLabel.setHorizontalTextPosition(SwingConstants.CENTER);

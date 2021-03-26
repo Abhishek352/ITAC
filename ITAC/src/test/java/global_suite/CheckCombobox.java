@@ -49,7 +49,7 @@ public class CheckCombobox extends JFrame {
 		//cbpanel.setLayout(new BoxLayout(cbpanel, BoxLayout.Y_AXIS));
 		cbpanel.setOpaque(false);
 		cbpanel.setLayout(null);
-		cbpanel.setBackground(ITAC.color);
+		cbpanel.setBackground(ETAC.color);
 		cbpanel.add(label);
 
 		for (int i = 0; i < options.size(); i++) {
@@ -58,7 +58,7 @@ public class CheckCombobox extends JFrame {
 				ccs = obj.new CheckComboStore(options.get(0), true);
 			else
 				ccs = obj.new CheckComboStore(options.get(i), false);
-			checkCombo.setBackground(ITAC.color);
+			checkCombo.setBackground(ETAC.color);
 			checkCombo.addItem(ccs);
 
 			cbpanel.add(checkCombo);// adding check combobox to panel

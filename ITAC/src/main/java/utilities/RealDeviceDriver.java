@@ -231,7 +231,6 @@ public class RealDeviceDriver {
 			
 		}
 
-		
 		else {
 			
 		//	caps.setCapability(AndroidMobileCapabilityType.BROWSER_NAME, "Chrome");

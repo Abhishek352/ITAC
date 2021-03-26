@@ -2,10 +2,5 @@
 <!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
 <suite name='Suite' thread-count='8' parallel='true'>
 <test name='Cybernation'><parameter name='browser' value="null"></parameter><classes>
-<class name ="site_monitoring.BrokenLinks"></class>
-<class name ="site_monitoring.FindingSpecialCharacters"></class>
-<class name ="site_monitoring.FindingMissingAssets"></class>
-<class name ="site_monitoring.DisplayAssetSizeDriver"></class>
 <class name ="site_monitoring.PageComparison"></class>
-<class name ="site_monitoring.ResponseTime"></class>
 </classes></test></suite>

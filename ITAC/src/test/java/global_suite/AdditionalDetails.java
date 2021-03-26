@@ -54,7 +54,7 @@ public class AdditionalDetails extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
 		contentPane.setBorder(null);
-		contentPane.setBackground(ITAC.color);
+		contentPane.setBackground(ETAC.color);
 		setContentPane(contentPane);
 		contentPane.setLayout(new CardLayout(0, 0));
 		
@@ -68,7 +68,7 @@ public class AdditionalDetails extends JFrame {
 		contentPane.add(gradientPanel);
 		gradientPanel.setLayout(new BorderLayout(0, 0));
 		
-		JLabel welcomeLabel = new JLabel("ITAC Additional Details",SwingConstants.CENTER);
+		JLabel welcomeLabel = new JLabel("ETAC Additional Details",SwingConstants.CENTER);
 		welcomeLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
 		welcomeLabel.setPreferredSize(new Dimension(720, 50));
 		welcomeLabel.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -78,7 +78,7 @@ public class AdditionalDetails extends JFrame {
 		welcomeLabel.setFont(new Font("Copperplate Gothic Bold", Font.BOLD, 22));
 		gradientPanel.add(welcomeLabel, BorderLayout.NORTH);
 		
-		JLabel lblRbs = new JLabel("ITAC @ 2019");
+		JLabel lblRbs = new JLabel("ETAC @ 2019");
 		lblRbs.setPreferredSize(new Dimension(59, 30));
 		lblRbs.setFont(new Font("Century Schoolbook", Font.BOLD, 12));
 		lblRbs.setForeground(new Color(0, 51, 51));
